@@ -15,6 +15,7 @@ namespace DrunkenSoftUniWarrior.Items
 
         protected Item(Point position, int level)
         {
+
             this.Position = position;
             this.Level = level;
             this.ItemButton = new Button();
@@ -22,6 +23,7 @@ namespace DrunkenSoftUniWarrior.Items
             this.ItemButton.BringToFront();
             this.ItemButton.Size = new System.Drawing.Size(ItemButtonSize, ItemButtonSize);
             this.ItemButton.UseVisualStyleBackColor = true;
+            this.ItemButton.TabStop = false;
             this.ItemStats = new Label();
             this.ItemStats.Location = new Point(this.Position.X + ItemButtonSize, this.Position.Y + ItemButtonSize);
             this.ItemStats.Size = new Size(ItemStatsSize, ItemStatsSize);

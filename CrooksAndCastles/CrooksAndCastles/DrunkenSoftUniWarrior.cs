@@ -54,7 +54,6 @@ namespace DrunkenSoftUniWarrior
         }
 
         ////////// PROPERTIS MANAGEABLE //////////
-        //internal static ToolTip ItemStats { get; set; }
         internal static List<Item> Items { get; set; }
         internal static List<Character> Units { get; set; }
         public static MainCharacter Hero { get; set; }
@@ -88,9 +87,6 @@ namespace DrunkenSoftUniWarrior
             Control.FromHandle(Window.Handle).Controls.Add(health.Label);
             Control.FromHandle(Window.Handle).Controls.Add(stats.Label);
             Control.FromHandle(Window.Handle).Controls.Add(heroStats.Label);
-            
-            
-
         }
         protected override void UnloadContent()
         {
@@ -113,19 +109,26 @@ namespace DrunkenSoftUniWarrior
                 Units.Add(enemy);
             }
 
+            if (Items.Count > 5)
+            {
+                Items[0].ItemButton.Dispose();
+                Items.RemoveAt(0);
+            }
+
             for (int index = 1; index < Units.Count; index++)
             {
                 Units[index].playCharacterAnimation(gameTime);
             }
+
             for (int index = 0; index < Units.Count; index++)
             {
                 Units[index].Awareness();
             }
 
-            for (int index = 0; index < Items.Count; index++)
+            foreach (var item in Items)
             {
-                Control.FromHandle(Window.Handle).Controls.Add(Items[index].ItemButton);
-                Control.FromHandle(Window.Handle).Controls.Add(Items[index].ItemStats);
+                Control.FromHandle(Window.Handle).Controls.Add(item.ItemButton);
+                Control.FromHandle(Window.Handle).Controls.Add(item.ItemStats);
             }
 
             sleepNPC.playCharacterAnimation(gameTime);
@@ -161,7 +164,6 @@ namespace DrunkenSoftUniWarrior
                 }
                 Hero.Draw(spriteBatch);
             }
-            
             
             this.spriteBatch.End();
             base.Draw(gameTime);
