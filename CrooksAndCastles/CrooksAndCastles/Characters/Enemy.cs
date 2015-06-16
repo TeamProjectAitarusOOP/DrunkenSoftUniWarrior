@@ -25,7 +25,7 @@ namespace DrunkenSoftUniWarrior.Characters
         private float startPositionY;
         private EnemyState enemyState = EnemyState.Chill;
         private float enemyOrientation;
-        public const float EnemyChaseDistance = 150.0f;
+        public const float EnemyChaseDistance = 75.0f;
         public const float EnemyTurnSpeed = 2.0f;
         public const float MaxEnemySpeed = 0.7f;
 
@@ -160,8 +160,7 @@ namespace DrunkenSoftUniWarrior.Characters
                 }
             }
             return randomPosition;
-        }
-    
+        }  
         internal static void Drop(Vector2 position)
         {
             int randomX = rand.Next(0, 50) + (int)position.X;

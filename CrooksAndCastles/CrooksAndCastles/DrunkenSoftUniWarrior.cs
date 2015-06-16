@@ -30,7 +30,7 @@ namespace DrunkenSoftUniWarrior
         private GameOver gameOver;
         private Random rand;
         private bool startingCharacter;
-        public const int WindowHeight = 576;
+        public const int WindowHeight = 676;
         public const int WindowWidth = 1024; 
         public const int MenuHeight = 50;
 
@@ -39,6 +39,29 @@ namespace DrunkenSoftUniWarrior
         private Labels health = new Labels(10,5,"HEALTH",60,15,10);
         private Labels stats = new Labels(250, 5, "STATS", 50, 15, 10);
         private Labels heroStats = new Labels(250,22,240,18,11);
+
+        ////////// COLLISION DETECTION //////////
+        private string direction;
+        private Rectangle ForestLeftOne = new Rectangle(0,0,350,150);
+        private Rectangle ForestLeftTwo = new Rectangle(0, 130, 270, 70);
+        private Rectangle ForestLeftTre = new Rectangle(0, 200, 240, 220);
+        private Rectangle ForestLeftFour = new Rectangle(0, 400, 200, 50);
+        private Rectangle ForestLeftDown = new Rectangle(0, 550, 150, 200);
+        private Rectangle SmallHouse = new Rectangle(338, 340, 105, 130);
+        private Rectangle BigHouse = new Rectangle(750, 62, 175, 140);
+        private Rectangle Well = new Rectangle(713, 355, 41, 10);
+        private Rectangle ForestRight = new Rectangle(900, 470, 400, 250);
+        //Boolians
+        private bool ForestLeftOneBool;
+        private bool ForestLeftTwoBool;
+        private bool ForestLeftTreBool;
+        private bool ForestLeftFourBool;
+        private bool ForestLeftDownBool;
+        private bool SmallHouseBool;
+        private bool BigHouseBool;
+        private bool WellBool;
+        private bool ForestRightBool;
+        private string state = "normal";
 
         public DrunkenSoftUniWarrior()
         {
@@ -61,6 +84,7 @@ namespace DrunkenSoftUniWarrior
 
         ////////// PROPERTIS UNMANAGEABLE //////////
         private NPC sleepNPC;
+        private NPC drRadeva;
 
         /////////// Internal GAME XNA METHODS ///////////
         protected override void Initialize()
@@ -73,15 +97,17 @@ namespace DrunkenSoftUniWarrior
             this.spriteBatch = new SpriteBatch(GraphicsDevice);
             Hero = new MainCharacter(Content, "HeroMoveLeft", "HeroMoveRight", "HeroHitLeft", "HeroHitRight", 150f, 4, true, 1, "HeroMoveDown", "HeroMoveUp");
             Units.Add(Hero);
-            this.background = new Background(Content, "BackgroundIMG", new Rectangle(0, MenuHeight, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
+            this.background = new Background(Content, "Background2", new Rectangle(0, MenuHeight, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
             this.gameOver = new GameOver(Content, "GameOver", new Rectangle(0, 0, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
             while (Units.Count < 6)
             {
                 Enemy enemy = SpawnEnemy();
                 Units.Add(enemy);
             }
-            sleepNPC = new NPC(Content, "SleepingNPC", 500f, 3, true, 730, 190);
-            
+            //NPC Load
+            sleepNPC = new NPC(Content, "SleepingNPC", 500f, 3, true, 730, 200);
+            drRadeva = new NPC(Content, "drRadeva", 1500f, 2, true, 435, 450);
+
             //Control Handle XNA
             Control.FromHandle(Window.Handle).Controls.Add(healthBar.HealBar);
             Control.FromHandle(Window.Handle).Controls.Add(health.Label);
@@ -102,6 +128,39 @@ namespace DrunkenSoftUniWarrior
                 Hero.ChangeAsset(Content, "HeroMoveDown", 1);
                 Hero.playCharacterAnimation(gameTime);
             }
+
+            //Collision Detection Load
+            ForestLeftOneBool =
+                ForestLeftOne.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            ForestLeftTwoBool =
+                ForestLeftTwo.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            ForestLeftTreBool =
+                ForestLeftTre.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            ForestLeftFourBool =
+                ForestLeftFour.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            ForestLeftDownBool =
+                ForestLeftDown.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            SmallHouseBool =
+                SmallHouse.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            BigHouseBool =
+                BigHouse.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            WellBool =
+                Well.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            ForestRightBool =
+                ForestRight.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
+            
+            //Collision detection
+            if (ForestLeftTwoBool || ForestLeftOneBool || ForestLeftTreBool || ForestLeftFourBool
+                || ForestLeftDownBool || SmallHouseBool || BigHouseBool || WellBool || ForestRightBool)
+            {
+                state = "border";
+                HitBorder();
+            }
+            else
+            {
+                state = "normal";
+            }
+
 
             if (Units.Count < 6)
             {
@@ -132,6 +191,7 @@ namespace DrunkenSoftUniWarrior
             }
 
             sleepNPC.playCharacterAnimation(gameTime);
+            drRadeva.playCharacterAnimation(gameTime);
 
             //initialization and update Menu components
             healthBar.HealBar.Maximum = Hero.Level * 1000;
@@ -158,6 +218,7 @@ namespace DrunkenSoftUniWarrior
             {
                 this.background.Draw(spriteBatch);
                 sleepNPC.Draw(spriteBatch);
+                drRadeva.Draw(spriteBatch);
                 for (int index = 0; index < Units.Count; index++)
                 {
                     Units[index].Draw(this.spriteBatch);
@@ -172,29 +233,33 @@ namespace DrunkenSoftUniWarrior
         /////////// External GAME XNA METHODS ///////////
         private void MovePlayer(GameTime gameTime)
         {
-            if (keyBoard.IsKeyDown(Keys.Up))
+            if (keyBoard.IsKeyDown(Keys.W))
             {
+                direction = "Up";
                 Hero.MoveUp();
                 Hero.ChangeAsset(Content, "HeroMoveUp", 4);
                 Units[0].playCharacterAnimation(gameTime);
                 this.startingCharacter = false;
             }
-            else if (keyBoard.IsKeyDown(Keys.Right))
+            else if (keyBoard.IsKeyDown(Keys.D))
             {
+                direction = "Right";
                 Hero.MoveRight();
                 Hero.ChangeAsset(Content, "HeroMoveRight", 4);
                 Units[0].playCharacterAnimation(gameTime);
                 this.startingCharacter = false;
             }
-            else if (keyBoard.IsKeyDown(Keys.Down))
+            else if (keyBoard.IsKeyDown(Keys.S))
             {
+                direction = "Down";
                 Hero.MoveDown();
                 Hero.ChangeAsset(Content, "HeroMoveDown", 4);
                 Units[0].playCharacterAnimation(gameTime);
                 this.startingCharacter = false;
             }
-            else if (keyBoard.IsKeyDown(Keys.Left))
+            else if (keyBoard.IsKeyDown(Keys.A))
             {
+                direction = "Left";
                 Hero.MoveLeft();
                 Hero.ChangeAsset(Content, "HeroMoveLeft", 4);
                 Units[0].playCharacterAnimation(gameTime);
@@ -216,11 +281,29 @@ namespace DrunkenSoftUniWarrior
             }
             return new Enemy(Content, "EnemyTwoLeft", "EnemyTwoRight", "EnemyTwoHitLeft", "EnemyTwoHitRight", 150f, 4, true, Enemy.GetRandomPosition(), Hero.Level);
         }
-
         private int GetRandomNumber()
         {
             int result = this.rand.Next(0, 2);
             return result;
+        }
+        private void HitBorder()
+        {
+            if (direction == "Left")
+            {
+                Hero.MoveRight();
+            }
+            else if (direction == "Up")
+            {
+                Hero.MoveDown();
+            }
+            else if (direction == "Right")
+            {
+                Hero.MoveLeft();
+            }
+            else if (direction == "Down")
+            {
+                Hero.MoveUp();
+            }
         }
     }
 }

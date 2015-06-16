@@ -17,3 +17,5 @@ Content\EnemyTwoLeft.xnb
 Content\EnemyTwoRight.xnb
 Content\Font.xnb
 Content\KageSans.xnb
+Content\Background2.xnb
+Content\drRadeva.xnb

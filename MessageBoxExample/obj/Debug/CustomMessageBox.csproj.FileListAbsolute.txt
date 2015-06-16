@@ -6,3 +6,11 @@ C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\MessageBoxEx
 C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\MessageBoxExample.pdb
 C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\CustomMessageBox.MyMessageBox.resources
 C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\CustomMessageBox.csprojResolveAssemblyReference.cache
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\bin\Debug\MessageBoxExample.exe
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\bin\Debug\MessageBoxExample.pdb
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\obj\Debug\CustomMessageBox.csprojResolveAssemblyReference.cache
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\obj\Debug\CustomMessageBox.MyMessageBox.resources
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\obj\Debug\MessageBoxExample.Properties.Resources.resources
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\obj\Debug\CustomMessageBox.csproj.GenerateResource.Cache
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\obj\Debug\MessageBoxExample.exe
+D:\GitHub\DrunkenWarrion\trunk\MessageBoxExample\obj\Debug\MessageBoxExample.pdb

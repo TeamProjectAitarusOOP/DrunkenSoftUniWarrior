@@ -1,1 +1,2 @@
 C:\Users\PsychoSphere\Desktop\Version10\CrooksAndCastles\CrooksAndCastlesContent\obj\x86\Debug\DrunkenSoftUniWarriorContent.contentprojResolveAssemblyReference.cache
+D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastlesContent\obj\x86\Debug\DrunkenSoftUniWarriorContent.contentprojResolveAssemblyReference.cache
