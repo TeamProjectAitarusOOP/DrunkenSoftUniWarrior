@@ -11,6 +11,8 @@ using DrunkenSoftUniWarrior.Characters.AI;
 using DrunkenSoftUniWarrior;
 using DrunkenSoftUniWarrior.Characters;
 using DrunkenSoftUniWarrior.Items.Weapons;
+using DrunkenSoftUniWarrior.Items.Armors;
+using DrunkenSoftUniWarrior.Items;
 
 namespace DrunkenSoftUniWarrior.Characters
 {
@@ -164,11 +166,17 @@ namespace DrunkenSoftUniWarrior.Characters
         {
             int randomX = rand.Next(0, 50) + (int)position.X;
             int randomY = rand.Next(0, 50) + (int)position.Y;
-            int randomItem = rand.Next(0, 1);
+            int randomItem = rand.Next(0, 3);
             switch (randomItem)
             {
                 case 0:
                     DrunkenSoftUniWarrior.Items.Add(new Sword(new System.Drawing.Point(randomX, randomY), 1));
+                    break;
+                case 1:
+                    DrunkenSoftUniWarrior.Items.Add(new Pants(new System.Drawing.Point(randomX, randomY), 1));
+                    break;
+                case 2:
+                    DrunkenSoftUniWarrior.Items.Add(new Potion(new System.Drawing.Point(randomX, randomY), 1));
                     break;
                 default:
                     break;

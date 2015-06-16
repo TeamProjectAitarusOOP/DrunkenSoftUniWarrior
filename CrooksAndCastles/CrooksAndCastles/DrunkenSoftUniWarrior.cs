@@ -109,7 +109,7 @@ namespace DrunkenSoftUniWarrior
                 Units.Add(enemy);
             }
 
-            if (Items.Count > 5)
+            if (Items.Count > 6)
             {
                 Items[0].ItemButton.Dispose();
                 Items.RemoveAt(0);

@@ -13,10 +13,9 @@ namespace DrunkenSoftUniWarrior.Items
         protected Armor(Point position, int level)
             : base (position, level)
         {
-            this.Defence = 2 * level;
-            this.ItemStats.Text = string.Format("{0}\n\nDefence: {1}", this.GetType().Name, this.Defence.ToString());
+            
         }
 
-        public int Defence { get; private set; }
+        public double Defence { get; set; }
     }
 }

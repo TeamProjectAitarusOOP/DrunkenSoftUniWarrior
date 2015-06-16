@@ -88,7 +88,9 @@
     <Compile Include="Interfaces\IMovabble.cs" />
     <Compile Include="Characters\MainCharacter.cs" />
     <Compile Include="Items\Armor.cs" />
+    <Compile Include="Items\Armors\Pants.cs" />
     <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\Potion.cs" />
     <Compile Include="Items\Weapon.cs" />
     <Compile Include="Items\Weapons\Sword.cs" />
     <Compile Include="NPCs\NPC.cs" />
