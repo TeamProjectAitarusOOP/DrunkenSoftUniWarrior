@@ -148,8 +148,8 @@ namespace DrunkenSoftUniWarrior.Characters
         }       
         internal static Vector2 GetRandomPosition()
         {
-            float randomX = rand.Next(0, DrunkenSoftUniWarrior.WindowWidth - DrunkenSoftUniWarrior.MenuHeight);
-            float randomY = rand.Next(DrunkenSoftUniWarrior.MenuHeight, DrunkenSoftUniWarrior.WindowHeight - DrunkenSoftUniWarrior.MenuHeight);
+            float randomX = rand.Next(600, DrunkenSoftUniWarrior.WindowWidth-100);
+            float randomY = rand.Next(250, DrunkenSoftUniWarrior.WindowHeight - DrunkenSoftUniWarrior.MenuHeight);
             randomPosition = new Vector2(randomX, randomY);
             foreach (var unit in DrunkenSoftUniWarrior.Units)
             {
