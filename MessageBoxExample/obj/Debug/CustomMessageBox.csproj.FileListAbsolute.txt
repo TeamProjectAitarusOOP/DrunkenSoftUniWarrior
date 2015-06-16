@@ -1,0 +1,8 @@
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\bin\Debug\MessageBoxExample.exe
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\bin\Debug\MessageBoxExample.pdb
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\MessageBoxExample.Properties.Resources.resources
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\CustomMessageBox.csproj.GenerateResource.Cache
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\MessageBoxExample.exe
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\MessageBoxExample.pdb
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\CustomMessageBox.MyMessageBox.resources
+C:\Users\PsychoSphere\Desktop\Version10\MessageBoxExample\obj\Debug\CustomMessageBox.csprojResolveAssemblyReference.cache
