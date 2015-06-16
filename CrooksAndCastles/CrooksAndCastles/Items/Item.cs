@@ -16,19 +16,18 @@ namespace DrunkenSoftUniWarrior.Items
             this.Level = level;
             this.ItemButton = new Button();
             this.ItemButton.Location = position;
-            this.ItemButton.BringToFront();
             this.ItemButton.Size = new System.Drawing.Size(ItemButtonSize, ItemButtonSize);
             this.ItemButton.UseVisualStyleBackColor = true;
             this.ItemButton.TabStop = false;
             this.ItemStats = new Label();
+            this.ItemStats.BringToFront();
             this.ItemStats.Location = new Point(this.Position.X + ItemButtonSize, this.Position.Y + ItemButtonSize);
             this.ItemStats.Size = new Size(ItemStatsSize, ItemStatsSize);
             this.ItemStats.Font = new Font("Arial", 9, FontStyle.Bold);
             this.ItemStats.Visible = false;
             this.ItemButton.MouseHover += new EventHandler(this.itemButton_Hover);
             this.ItemButton.MouseLeave += new EventHandler(this.itemButton_MouseLeave);
-
-            //this.itemButton.MouseDoubleClick += new MouseEventHandler(this.itemButton_DoubleClick);
+            //this.ItemButton.MouseClick += new MouseEventHandler(this.itemButton_Click);
         }
         protected Image Picture { get; set; }
 
@@ -55,6 +54,7 @@ namespace DrunkenSoftUniWarrior.Items
             this.ItemStats.Visible = false;
         }
 
-        //public abstract void itemButton_DoubleClick(object sender, EventArgs e);
+        //public abstract void itemButton_Click(object sender, EventArgs e);
+
     }
 }

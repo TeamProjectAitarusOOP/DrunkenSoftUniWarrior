@@ -32,7 +32,7 @@ namespace DrunkenSoftUniWarrior.Characters
             this.FrameHeight = (CharacterTexture.Height); // frame hight base on charapter hight 
             this.Level = level;
             this.Damage = 1 * Level;
-            this.Health = 1000 * level; 
+            this.Health = 1000 * Level; 
             this.IsAlive = true;
             this.AssetMoveRight = assetMoveRight;
             this.AssetMoveLeft = assetMoveLeft;

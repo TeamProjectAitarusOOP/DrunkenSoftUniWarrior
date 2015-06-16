@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.Drawing;
-using CustomMessageBox;
 
 namespace DrunkenSoftUniWarrior.Items
 {
@@ -17,5 +12,10 @@ namespace DrunkenSoftUniWarrior.Items
         }
 
         public double Defence { get; set; }
+
+        //public override void itemButton_Click(object sender, EventArgs e)
+        //{
+        //    this.ItemButton.Location = new Point(25, 1000);
+        //}
     }
 }

@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using DrunkenSoftUniWarrior.Items;
 
 namespace DrunkenSoftUniWarrior.Characters
 {
@@ -25,10 +26,13 @@ namespace DrunkenSoftUniWarrior.Characters
             this.IsAlive = true;
             this.AssetMoveUp = assetMoveUp;
             this.AssetMoveDown = assetMoveDown;
+            this.Inventory = new Item[2];
         }
         
         ////////// PROPERTIS //////////
         public override Vector2 Position { get; set; }
+
+        internal Item[] Inventory { get; set; }
        
         ///////////// METHODS /////////////
         public void MoveUp()

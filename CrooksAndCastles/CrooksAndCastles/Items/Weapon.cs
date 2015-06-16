@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace DrunkenSoftUniWarrior.Items
 {
@@ -11,5 +12,10 @@ namespace DrunkenSoftUniWarrior.Items
         }
 
         public double Damage { get; set; }
+
+        //public override void itemButton_Click(object sender, EventArgs e)
+        //{
+        //    this.ItemButton.Location = new Point(25, 1000);
+        //}
     }
 }

@@ -14,7 +14,7 @@ namespace DrunkenSoftUniWarrior.Items.Weapons
             this.Damage = 0.5 * this.Level;
             this.ItemStats.Image = this.Picture;
             this.ItemButton.Image = resizeImage(this.Picture, new Size(ItemButtonSize, ItemButtonSize));
-            this.ItemStats.Text = string.Format("{0}\n\nDamage: {1}", this.GetType().Name, this.Damage.ToString());
+            this.ItemStats.Text = string.Format("{0}\n\nDamage: {1}\n\n Level: {2}", this.GetType().Name, this.Damage.ToString(), this.Level);
         }
     }
 }

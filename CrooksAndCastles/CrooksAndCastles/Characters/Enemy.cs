@@ -167,16 +167,33 @@ namespace DrunkenSoftUniWarrior.Characters
             int randomX = rand.Next(0, 50) + (int)position.X;
             int randomY = rand.Next(0, 50) + (int)position.Y;
             int randomItem = rand.Next(0, 3);
+            int randomLevel;
+            switch (DrunkenSoftUniWarrior.Hero.Level)
+            {
+                case 1:
+                    randomLevel = rand.Next(1, 4);
+                    break;
+                case 2:
+                    randomLevel = rand.Next(1, 5);
+                    break;
+                case 3:
+                    randomLevel = rand.Next(1, 6);
+                    break;
+                default:
+                    randomLevel = rand.Next(DrunkenSoftUniWarrior.Hero.Level - 2, DrunkenSoftUniWarrior.Hero.Level + 3);
+                    break;
+            }
+
             switch (randomItem)
             {
                 case 0:
-                    DrunkenSoftUniWarrior.Items.Add(new Sword(new System.Drawing.Point(randomX, randomY), 1));
+                    DrunkenSoftUniWarrior.Items.Add(new Sword(new System.Drawing.Point(randomX, randomY), randomLevel));
                     break;
                 case 1:
-                    DrunkenSoftUniWarrior.Items.Add(new Pants(new System.Drawing.Point(randomX, randomY), 1));
+                    DrunkenSoftUniWarrior.Items.Add(new Pants(new System.Drawing.Point(randomX, randomY), randomLevel));
                     break;
                 case 2:
-                    DrunkenSoftUniWarrior.Items.Add(new Potion(new System.Drawing.Point(randomX, randomY), 1));
+                    DrunkenSoftUniWarrior.Items.Add(new Potion(new System.Drawing.Point(randomX, randomY), randomLevel));
                     break;
                 default:
                     break;
