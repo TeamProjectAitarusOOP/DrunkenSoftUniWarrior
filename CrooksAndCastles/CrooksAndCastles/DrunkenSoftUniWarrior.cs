@@ -39,6 +39,8 @@ namespace DrunkenSoftUniWarrior
         private Labels health = new Labels(10,5,"HEALTH",60,15,10);
         private Labels stats = new Labels(250, 5, "STATS", 50, 15, 10);
         private Labels heroStats = new Labels(250,22,240,18,11);
+        private Song gameMusic;
+        
 
         ////////// COLLISION DETECTION //////////
         private string direction;
@@ -85,6 +87,7 @@ namespace DrunkenSoftUniWarrior
         ////////// PROPERTIS UNMANAGEABLE //////////
         private NPC sleepNPC;
         private NPC drRadeva;
+        private NPC selfieGuy;
 
         /////////// Internal GAME XNA METHODS ///////////
         protected override void Initialize()
@@ -99,6 +102,9 @@ namespace DrunkenSoftUniWarrior
             Units.Add(Hero);
             this.background = new Background(Content, "Background2", new Rectangle(0, MenuHeight, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
             this.gameOver = new GameOver(Content, "GameOver", new Rectangle(0, 0, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
+            gameMusic = Content.Load<Song>("GameMusic");
+            MediaPlayer.Play(gameMusic);
+            
             while (Units.Count < 6)
             {
                 Enemy enemy = SpawnEnemy();
@@ -107,6 +113,7 @@ namespace DrunkenSoftUniWarrior
             //NPC Load
             sleepNPC = new NPC(Content, "SleepingNPC", 500f, 3, true, 730, 200);
             drRadeva = new NPC(Content, "drRadeva", 1500f, 2, true, 435, 450);
+            selfieGuy = new NPC(Content, "SelfieGuy", 600f, 3, true, 10, 480);
 
             //Control Handle XNA
             Control.FromHandle(Window.Handle).Controls.Add(healthBar.HealBar);
@@ -192,6 +199,8 @@ namespace DrunkenSoftUniWarrior
 
             sleepNPC.playCharacterAnimation(gameTime);
             drRadeva.playCharacterAnimation(gameTime);
+            selfieGuy.playCharacterAnimation(gameTime);
+
 
             //initialization and update Menu components
             healthBar.HealBar.Maximum = Hero.Level * 1000;
@@ -211,7 +220,7 @@ namespace DrunkenSoftUniWarrior
                 heroStats.Label.Visible = false;
                 stats.Label.Visible = false;
                 health.Label.Visible = false;
-
+                MediaPlayer.Stop();
                 gameOver.Draw(spriteBatch);             
             }
             else
@@ -219,6 +228,8 @@ namespace DrunkenSoftUniWarrior
                 this.background.Draw(spriteBatch);
                 sleepNPC.Draw(spriteBatch);
                 drRadeva.Draw(spriteBatch);
+                selfieGuy.Draw(spriteBatch);
+                
                 for (int index = 0; index < Units.Count; index++)
                 {
                     Units[index].Draw(this.spriteBatch);

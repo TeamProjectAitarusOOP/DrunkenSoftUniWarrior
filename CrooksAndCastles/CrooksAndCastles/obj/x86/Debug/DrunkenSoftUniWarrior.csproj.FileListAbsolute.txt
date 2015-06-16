@@ -90,32 +90,42 @@ D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\C
 D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.pdb
 D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Background2.xnb
 D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\drRadeva.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\DrunkenSoftUniWarrior.csprojResolveAssemblyReference.cache
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.exe
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\BackgroundIMG.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameOver.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitLeft.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneLeft.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneRight.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitRight.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitLeft.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitRight.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SleepingNPC.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitLeft.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitRight.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoLeft.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoRight.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Font.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\KageSans.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Background2.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\drRadeva.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveDown.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveLeft.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveRight.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveUp.xnb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\CrooksAndCastles.exe
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\CrooksAndCastles.pdb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\MessageBoxExample.exe
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\MessageBoxExample.pdb
-C:\Users\Viktor\Desktop\DrunkenSoftUniWarrior.git\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.pdb
+D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\ChuckNorris.xnb
+D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SelfieGuy.xnb
+D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.xnb
+D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.wma
+D:\GitHub\DrunkenWarrion\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Sw.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\BackgroundIMG.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameOver.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitLeft.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneLeft.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneRight.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitRight.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitLeft.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitRight.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SleepingNPC.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitLeft.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitRight.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoLeft.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoRight.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Font.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\KageSans.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Background2.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\drRadeva.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveDown.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveLeft.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveRight.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveUp.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\ChuckNorris.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SelfieGuy.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Sw.xnb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.wma
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\CrooksAndCastles.exe
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\CrooksAndCastles.pdb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\MessageBoxExample.exe
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\MessageBoxExample.pdb
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\DrunkenSoftUniWarrior.csprojResolveAssemblyReference.cache
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.exe
+D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.pdb

@@ -92,8 +92,6 @@
     <Compile Include="Items\Armors\Helmet.cs" />
     <Compile Include="Items\Armors\Pants.cs" />
     <Compile Include="Items\Armors\ShoulderPads.cs" />
-    <Compile Include="Items\DrinkingPotions\GreenTea.cs" />
-    <Compile Include="Items\DrinkingPotions\Vodka.cs" />
     <Compile Include="Items\Item.cs" />
     <Compile Include="Items\Potion.cs" />
     <Compile Include="Items\Weapon.cs" />

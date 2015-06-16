@@ -9,6 +9,8 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using DrunkenSoftUniWarrior.Items;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 
 namespace DrunkenSoftUniWarrior.Characters
 {
@@ -17,16 +19,19 @@ namespace DrunkenSoftUniWarrior.Characters
         private readonly string AssetMoveUp;
         private readonly string AssetMoveDown;
         private const int baseDamage = 20;
+        private SoundEffect swordHit;
+        private bool isPlayed = true;
 
         public MainCharacter(ContentManager content, string assetMoveLeft, string assetMoveRight, string assetHitLeft, string assetHitRight, float frameSpeed, int numberOfFrames, bool looping, int level, string assetMoveDown, string assetMoveUp)
             : base(content, assetMoveLeft, assetMoveRight, assetHitLeft, assetHitRight, frameSpeed, numberOfFrames, looping, level)
         {
-            this.Position = new Vector2(DrunkenSoftUniWarrior.WindowWidth / 2, DrunkenSoftUniWarrior.WindowHeight / 2);
+            this.Position = new Vector2(DrunkenSoftUniWarrior.WindowWidth / 2, DrunkenSoftUniWarrior.MenuHeight);
             this.Damage = baseDamage * level;
             this.IsAlive = true;
             this.AssetMoveUp = assetMoveUp;
             this.AssetMoveDown = assetMoveDown;
             this.Inventory = new Item[2];
+            this.swordHit = content.Load<SoundEffect>("Sw");
         }
         
         ////////// PROPERTIS //////////
@@ -113,6 +118,11 @@ namespace DrunkenSoftUniWarrior.Characters
                     {
                         this.ChangeAsset(this.Content, this.AssetHitRight, 3);
                     }
+                    if (isPlayed)
+                    {
+                        swordHit.Play();
+                        isPlayed = false;
+                    }
                     Attack(index);
                 }
             }
@@ -123,6 +133,7 @@ namespace DrunkenSoftUniWarrior.Characters
             enemy.Health -= this.Damage;
             if (enemy.Health <= 0)
             {
+                isPlayed = true;
                 this.ChangeAsset(this.Content, this.AssetMoveDown, 1);
                 switch ((int)enemy.Position.X % 3)
                 {

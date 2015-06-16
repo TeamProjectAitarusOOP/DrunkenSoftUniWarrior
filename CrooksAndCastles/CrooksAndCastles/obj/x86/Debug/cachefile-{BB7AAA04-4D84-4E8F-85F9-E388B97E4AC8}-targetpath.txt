@@ -19,3 +19,8 @@ Content\HeroMoveDown.xnb
 Content\HeroMoveLeft.xnb
 Content\HeroMoveRight.xnb
 Content\HeroMoveUp.xnb
+Content\ChuckNorris.xnb
+Content\SelfieGuy.xnb
+Content\GameMusic.xnb
+Content\GameMusic.wma
+Content\Sw.xnb

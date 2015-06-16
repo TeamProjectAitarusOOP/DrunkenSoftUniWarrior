@@ -6,7 +6,7 @@ namespace DrunkenSoftUniWarrior.Items
 {
     internal abstract class Item
     {
-        protected const int ItemButtonSize = 25;
+        protected const int ItemButtonSize = 15;
         private const int ItemStatsSize = 85;
 
         protected Item(Point position, int level)
@@ -14,10 +14,10 @@ namespace DrunkenSoftUniWarrior.Items
 
             this.Position = position;
             this.Level = level;
-            this.ItemButton = new Button();
+            this.ItemButton = new PictureBox();
             this.ItemButton.Location = position;
             this.ItemButton.Size = new System.Drawing.Size(ItemButtonSize, ItemButtonSize);
-            this.ItemButton.UseVisualStyleBackColor = true;
+            this.ItemButton.BackColor = Color.Transparent;
             this.ItemButton.TabStop = false;
             this.ItemStats = new Label();
             this.ItemStats.BringToFront();
@@ -37,7 +37,7 @@ namespace DrunkenSoftUniWarrior.Items
 
         public Point Position { get; set; }
 
-        public Button ItemButton { get; set; }
+        public PictureBox ItemButton { get; set; }
 
         public Image resizeImage(Image imgToResize, Size size)
         {
