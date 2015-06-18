@@ -140,7 +140,7 @@ namespace DrunkenSoftUniWarrior.Characters
         }
         protected void Attack()
         {
-            DrunkenSoftUniWarrior.Hero.Health -= this.Damage;
+            DrunkenSoftUniWarrior.Hero.Health -= this.Damage + this.Damage * DrunkenSoftUniWarrior.Hero.Armor / 10;
             if (DrunkenSoftUniWarrior.Hero.Health <= 0)
             {
                 DrunkenSoftUniWarrior.Hero.IsAlive = false;

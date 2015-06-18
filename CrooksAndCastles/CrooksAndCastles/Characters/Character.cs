@@ -32,13 +32,14 @@ namespace DrunkenSoftUniWarrior.Characters
             this.FrameHeight = (CharacterTexture.Height); // frame hight base on charapter hight 
             this.Level = level;
             this.Damage = 1 * Level;
-            this.Health = 1000 * Level; 
+            this.Health = 1000 * Level;
+            this.Armor = 5 * this.Level;
             this.IsAlive = true;
             this.AssetMoveRight = assetMoveRight;
             this.AssetMoveLeft = assetMoveLeft;
             this.AssetHitLeft = assetHitLeft;
             this.AssetHitRight = assetHitRight;
-
+            this.Expirience = 20 * Level;
         }
 
         ////////// PROPERTIS //////////
@@ -51,9 +52,11 @@ namespace DrunkenSoftUniWarrior.Characters
         public Texture2D CharacterTexture { get; set; }
         public ContentManager Content { get; set; }
         public int Level { get; set; }
-        public int Health { get; set; }
-        public int Damage { get; set; }
+        public double Health { get; set; }
+        public double Damage { get; set; }
         public bool IsAlive { get; set; }
+        public int Expirience { get; set; }
+        public double Armor { get; set; }
 
         ///////////// METHODS /////////////
         public virtual void Draw(SpriteBatch spriteBatch)

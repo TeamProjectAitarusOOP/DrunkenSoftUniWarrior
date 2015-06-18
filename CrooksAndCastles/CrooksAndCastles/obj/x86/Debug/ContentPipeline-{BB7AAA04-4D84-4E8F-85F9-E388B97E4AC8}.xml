@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\BackgroundIMG.xnb</Output>
-      <Time>2015-06-16T16:26:48.3095488+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\BackgroundIMG.xnb</Output>
+      <Time>2015-06-17T12:59:47.5414712+03:00</Time>
     </Item>
     <Item>
       <Source>GameOver.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameOver.xnb</Output>
-      <Time>2015-06-16T16:26:48.2314387+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameOver.xnb</Output>
+      <Time>2015-06-17T12:59:47.6824793+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyOneHitLeft.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitLeft.xnb</Output>
-      <Time>2015-06-16T19:15:45.0478041+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitLeft.xnb</Output>
+      <Time>2015-06-17T12:59:47.5584722+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyOneLeft.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneLeft.xnb</Output>
-      <Time>2015-06-16T19:08:30.9033055+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneLeft.xnb</Output>
+      <Time>2015-06-17T12:59:47.5594722+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyOneRight.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneRight.xnb</Output>
-      <Time>2015-06-16T19:08:30.9190151+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneRight.xnb</Output>
+      <Time>2015-06-17T12:59:47.5594722+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyOneHitRight.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitRight.xnb</Output>
-      <Time>2015-06-16T19:14:08.2613074+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitRight.xnb</Output>
+      <Time>2015-06-17T12:59:47.5584722+03:00</Time>
     </Item>
     <Item>
       <Source>HeroHitLeft.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitLeft.xnb</Output>
-      <Time>2015-06-16T18:50:01.3810502+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitLeft.xnb</Output>
+      <Time>2015-06-17T12:59:47.6824793+03:00</Time>
     </Item>
     <Item>
       <Source>HeroHitRight.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitRight.xnb</Output>
-      <Time>2015-06-16T18:53:45.6606404+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitRight.xnb</Output>
+      <Time>2015-06-17T12:59:47.6834793+03:00</Time>
     </Item>
     <Item>
       <Source>SleepingNPC.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SleepingNPC.xnb</Output>
-      <Time>2015-06-16T16:26:48.2626741+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SleepingNPC.xnb</Output>
+      <Time>2015-06-17T12:59:47.7054806+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyTwoHitLeft.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitLeft.xnb</Output>
-      <Time>2015-06-16T19:03:18.9079587+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitLeft.xnb</Output>
+      <Time>2015-06-17T12:59:47.5614724+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyTwoHitRight.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitRight.xnb</Output>
-      <Time>2015-06-16T19:04:57.976998+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitRight.xnb</Output>
+      <Time>2015-06-17T12:59:47.5624724+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyTwoLeft.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoLeft.xnb</Output>
-      <Time>2015-06-16T19:00:15.0316698+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoLeft.xnb</Output>
+      <Time>2015-06-17T12:59:47.5624724+03:00</Time>
     </Item>
     <Item>
       <Source>EnemyTwoRight.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoRight.xnb</Output>
-      <Time>2015-06-16T19:00:15.0473061+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoRight.xnb</Output>
+      <Time>2015-06-17T12:59:47.5624724+03:00</Time>
     </Item>
     <Item>
       <Source>Font.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Font.xnb</Output>
-      <Time>2015-06-16T16:26:48.2626741+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2015-06-17T12:59:47.5634725+03:00</Time>
     </Item>
     <Item>
       <Source>KageSans.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\KageSans.xnb</Output>
-      <Time>2015-06-16T16:26:48.0908142+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\KageSans.xnb</Output>
+      <Time>2015-06-17T12:59:47.7044805+03:00</Time>
     </Item>
     <Item>
       <Source>Background2.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Background2.xnb</Output>
-      <Time>2015-06-16T16:40:50.2103433+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Background2.xnb</Output>
+      <Time>2015-06-17T12:59:47.5404712+03:00</Time>
     </Item>
     <Item>
       <Source>drRadeva.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\drRadeva.xnb</Output>
-      <Time>2015-06-16T18:10:35.3157477+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\drRadeva.xnb</Output>
+      <Time>2015-06-17T12:59:47.7074807+03:00</Time>
     </Item>
     <Item>
       <Source>HeroMoveDown.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveDown.xnb</Output>
-      <Time>2015-06-16T18:33:42.2482257+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveDown.xnb</Output>
+      <Time>2015-06-17T12:59:47.7034805+03:00</Time>
     </Item>
     <Item>
       <Source>HeroMoveLeft.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveLeft.xnb</Output>
-      <Time>2015-06-16T18:36:42.7888+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveLeft.xnb</Output>
+      <Time>2015-06-17T12:59:47.7034805+03:00</Time>
     </Item>
     <Item>
       <Source>HeroMoveRight.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveRight.xnb</Output>
-      <Time>2015-06-16T18:55:10.4552969+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveRight.xnb</Output>
+      <Time>2015-06-17T12:59:47.7044805+03:00</Time>
     </Item>
     <Item>
       <Source>HeroMoveUp.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveUp.xnb</Output>
-      <Time>2015-06-16T18:36:42.8044177+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveUp.xnb</Output>
+      <Time>2015-06-17T12:59:47.7044805+03:00</Time>
     </Item>
     <Item>
       <Source>ChuckNorris.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\ChuckNorris.xnb</Output>
-      <Time>2015-06-16T20:16:33.015552+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\ChuckNorris.xnb</Output>
+      <Time>2015-06-17T12:59:47.5504717+03:00</Time>
     </Item>
     <Item>
       <Source>SelfieGuy.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SelfieGuy.xnb</Output>
-      <Time>2015-06-16T20:24:03.9055252+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SelfieGuy.xnb</Output>
+      <Time>2015-06-17T12:59:47.7054806+03:00</Time>
     </Item>
     <Item>
       <Source>GameMusic.mp3</Source>
@@ -214,9 +214,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.xnb</Output>
-      <Extra>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.wma</Extra>
-      <Time>2015-06-16T20:51:56.5616444+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.xnb</Output>
+      <Extra>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.wma</Extra>
+      <Time>2015-06-17T12:59:47.6784791+03:00</Time>
     </Item>
     <Item>
       <Source>Sw.wav</Source>
@@ -224,8 +224,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Sw.xnb</Output>
-      <Time>2015-06-16T21:17:45.2877141+03:00</Time>
+      <Output>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Sw.xnb</Output>
+      <Time>2015-06-17T12:59:47.7074807+03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -234,10 +234,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastlesContent\</RootDirectory>
-      <LoggerRootDirectory>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastlesContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -266,7 +266,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-06-11T01:34:58.2995812+03:00</Value>
+        <Value>2015-06-11T21:15:39.579767+03:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

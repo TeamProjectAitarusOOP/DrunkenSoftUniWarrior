@@ -5,16 +5,18 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using System.Windows.Forms;
+using DrunkenSoftUniWarrior.Interfaces;
 
 namespace DrunkenSoftUniWarrior.NPCs
 {
-    class NPC
+    class NPC : PictureBox, IAnimation
     {
         private Rectangle sourceRectangle; //Base Bounderies
         protected float elapsed; //elapse time
         private int currentFrame; // current frame
 
-        public NPC(ContentManager content, string assetMoveRight, float frameSpeed, int numberOfFrames, bool looping, float possitionX, float possitionY)
+        public NPC(ContentManager content, string assetMoveRight, float frameSpeed, int numberOfFrames, bool looping, float possitionX, float possitionY) : base()
         {
             this.Content = content;
             this.FrameTime = frameSpeed; // frame speed
@@ -55,9 +57,16 @@ namespace DrunkenSoftUniWarrior.NPCs
                 this.elapsed = 0;
             }
         }
+
         public virtual void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(this.CharacterTexture, this.Position, this.sourceRectangle, Color.White);
+        }
+
+        public void ChangeAsset(ContentManager content, string asset, int numberOfFrames)
+        {
+            this.CharacterTexture = content.Load<Texture2D>(asset);
+            this.NumberOfFrames = numberOfFrames;
         }
     }
 }

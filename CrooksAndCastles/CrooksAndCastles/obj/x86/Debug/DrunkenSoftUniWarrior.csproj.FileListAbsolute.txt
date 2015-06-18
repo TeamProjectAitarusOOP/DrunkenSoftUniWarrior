@@ -129,3 +129,37 @@ D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\
 D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.exe
 D:\GitHub\DrunkenWarrion - Copy\trunk\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.pdb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\BackgroundIMG.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameOver.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitLeft.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneLeft.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneRight.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyOneHitRight.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitLeft.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroHitRight.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SleepingNPC.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitLeft.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoHitRight.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoLeft.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\EnemyTwoRight.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Font.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\KageSans.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Background2.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\drRadeva.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveDown.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveLeft.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveRight.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\HeroMoveUp.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\ChuckNorris.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\SelfieGuy.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\Sw.xnb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\Content\GameMusic.wma
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\CrooksAndCastles.exe
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\CrooksAndCastles.pdb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\MessageBoxExample.exe
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\bin\x86\Debug\MessageBoxExample.pdb
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\DrunkenSoftUniWarrior.csprojResolveAssemblyReference.cache
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.exe
+C:\Users\PsychoSphere\Desktop\123\CrooksAndCastles\CrooksAndCastles\obj\x86\Debug\CrooksAndCastles.pdb

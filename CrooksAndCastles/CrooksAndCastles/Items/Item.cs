@@ -4,40 +4,33 @@ using System.Drawing;
 
 namespace DrunkenSoftUniWarrior.Items
 {
-    internal abstract class Item
+    internal abstract class Item : PictureBox
     {
         protected const int ItemButtonSize = 15;
         private const int ItemStatsSize = 85;
 
-        protected Item(Point position, int level)
+        protected Item(Point position, int level) : base()
         {
-
-            this.Position = position;
             this.Level = level;
-            this.ItemButton = new PictureBox();
-            this.ItemButton.Location = position;
-            this.ItemButton.Size = new System.Drawing.Size(ItemButtonSize, ItemButtonSize);
-            this.ItemButton.BackColor = Color.Transparent;
-            this.ItemButton.TabStop = false;
+            this.Location = position;
+            this.Size = new System.Drawing.Size(ItemButtonSize, ItemButtonSize);
+            this.BackColor = Color.Transparent;
+            this.TabStop = false;
             this.ItemStats = new Label();
             this.ItemStats.BringToFront();
-            this.ItemStats.Location = new Point(this.Position.X + ItemButtonSize, this.Position.Y + ItemButtonSize);
+            this.ItemStats.Location = new Point(this.Location.X + ItemButtonSize, this.Location.Y + ItemButtonSize);
             this.ItemStats.Size = new Size(ItemStatsSize, ItemStatsSize);
             this.ItemStats.Font = new Font("Arial", 9, FontStyle.Bold);
             this.ItemStats.Visible = false;
-            this.ItemButton.MouseHover += new EventHandler(this.itemButton_Hover);
-            this.ItemButton.MouseLeave += new EventHandler(this.itemButton_MouseLeave);
-            //this.ItemButton.MouseClick += new MouseEventHandler(this.itemButton_Click);
+            this.MouseHover += new EventHandler(this.itemButton_Hover);
+            this.MouseLeave += new EventHandler(this.itemButton_MouseLeave);
+            this.MouseClick += new MouseEventHandler(this.itemButton_Click);
         }
         protected Image Picture { get; set; }
 
         public Label ItemStats { get; set; }
 
         public int Level { get; set; }
-
-        public Point Position { get; set; }
-
-        public PictureBox ItemButton { get; set; }
 
         public Image resizeImage(Image imgToResize, Size size)
         {
@@ -54,7 +47,7 @@ namespace DrunkenSoftUniWarrior.Items
             this.ItemStats.Visible = false;
         }
 
-        //public abstract void itemButton_Click(object sender, EventArgs e);
+        public abstract void itemButton_Click(object sender, EventArgs e);
 
     }
 }

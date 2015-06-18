@@ -39,7 +39,7 @@ namespace DrunkenSoftUniWarrior
         private Labels health = new Labels(10,5,"HEALTH",60,15,10);
         private Labels stats = new Labels(250, 5, "STATS", 50, 15, 10);
         private Labels heroStats = new Labels(250,22,240,18,11);
-        private Song gameMusic;
+        //private Song gameMusic;
         
 
         ////////// COLLISION DETECTION //////////
@@ -64,7 +64,13 @@ namespace DrunkenSoftUniWarrior
         private bool WellBool;
         private bool ForestRightBool;
         private string state = "normal";
+         //MouseState prevMouseState;
+         //MouseState mouseState;
+         //int mouseX;
+         //int mouseY;
+         //Rectangle clickableArea;
 
+        
         public DrunkenSoftUniWarrior()
         {
             startingCharacter = true;
@@ -76,7 +82,10 @@ namespace DrunkenSoftUniWarrior
             Units = new List<Character>();
             Items = new List<Item>();
             this.rand = new Random();
+            
         }
+
+        
 
         ////////// PROPERTIS MANAGEABLE //////////
         internal static List<Item> Items { get; set; }
@@ -102,8 +111,8 @@ namespace DrunkenSoftUniWarrior
             Units.Add(Hero);
             this.background = new Background(Content, "Background2", new Rectangle(0, MenuHeight, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
             this.gameOver = new GameOver(Content, "GameOver", new Rectangle(0, 0, this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight));
-            gameMusic = Content.Load<Song>("GameMusic");
-            MediaPlayer.Play(gameMusic);
+            //gameMusic = Content.Load<Song>("GameMusic");
+            //MediaPlayer.Play(gameMusic);
             
             while (Units.Count < 6)
             {
@@ -114,13 +123,19 @@ namespace DrunkenSoftUniWarrior
             sleepNPC = new NPC(Content, "SleepingNPC", 500f, 3, true, 730, 200);
             drRadeva = new NPC(Content, "drRadeva", 1500f, 2, true, 435, 450);
             selfieGuy = new NPC(Content, "SelfieGuy", 600f, 3, true, 10, 480);
+            
+            
 
             //Control Handle XNA
             Control.FromHandle(Window.Handle).Controls.Add(healthBar.HealBar);
             Control.FromHandle(Window.Handle).Controls.Add(health.Label);
             Control.FromHandle(Window.Handle).Controls.Add(stats.Label);
             Control.FromHandle(Window.Handle).Controls.Add(heroStats.Label);
+
+            Control.FromHandle(Window.Handle).Controls.Add(Hero.DamageButton);
+            Control.FromHandle(Window.Handle).Controls.Add(Hero.ArmorButton);
         }
+
         protected override void UnloadContent()
         {
 
@@ -135,7 +150,28 @@ namespace DrunkenSoftUniWarrior
                 Hero.ChangeAsset(Content, "HeroMoveDown", 1);
                 Hero.playCharacterAnimation(gameTime);
             }
+            //prevMouseState = Mouse.GetState();
+            //mouseState = Mouse.GetState();
+            //clickableArea = new Rectangle((int)drRadeva.Position.X, (int)drRadeva.Position.Y, 100, 100);
 
+
+
+            //if (mouseState.LeftButton == Microsoft.Xna.Framework.Input.ButtonState.Pressed && prevMouseState.LeftButton == Microsoft.Xna.Framework.Input.ButtonState.Released)
+            //{
+            //     //We now know the left mouse button is down and it wasn't down last frame
+            //     //so we've detected a click
+            //     //Now find the position 
+            //    Point mousePos = new Point(mouseState.X, mouseState.Y);
+            //    if (clickableArea.Contains(mousePos))
+            //    {
+            //        drRadeva.ChangeAsset(Content, "ChuckNorris", 5);
+            //    }
+            //}
+
+            // //Store the mouse state so that we can compare it next frame
+            // //with the then current mouse state
+            //prevMouseState = mouseState;
+    
             //Collision Detection Load
             ForestLeftOneBool =
                 ForestLeftOne.Intersects(new Rectangle((int)Hero.Position.X, (int)Hero.Position.Y, 30, 30));
@@ -177,7 +213,8 @@ namespace DrunkenSoftUniWarrior
 
             if (Items.Count > 6)
             {
-                Items[0].ItemButton.Dispose();
+                Items[0].ItemStats.Visible = false;
+                Items[0].Dispose();
                 Items.RemoveAt(0);
             }
 
@@ -193,7 +230,7 @@ namespace DrunkenSoftUniWarrior
 
             foreach (var item in Items)
             {
-                Control.FromHandle(Window.Handle).Controls.Add(item.ItemButton);
+                Control.FromHandle(Window.Handle).Controls.Add(item);
                 Control.FromHandle(Window.Handle).Controls.Add(item.ItemStats);
             }
 
@@ -204,8 +241,8 @@ namespace DrunkenSoftUniWarrior
 
             //initialization and update Menu components
             healthBar.HealBar.Maximum = Hero.Level * 1000;
-            healthBar.ChangeSize(Math.Max(Hero.Health, 0));
-            heroStats.SetText(String.Format("Damage:{0}    Armor:{1}    Level:{2}", Hero.Damage, 20, Hero.Level));
+            healthBar.ChangeSize(Math.Max((int)Hero.Health, 0));
+            heroStats.SetText(String.Format("Damage:{0}    Armor:{1}    Level:{2}", Hero.Damage, Hero.Armor, Hero.Level));
 
             base.Update(gameTime);
         }
@@ -225,6 +262,7 @@ namespace DrunkenSoftUniWarrior
             }
             else
             {
+                
                 this.background.Draw(spriteBatch);
                 sleepNPC.Draw(spriteBatch);
                 drRadeva.Draw(spriteBatch);
