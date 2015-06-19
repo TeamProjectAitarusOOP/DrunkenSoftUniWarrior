@@ -87,7 +87,9 @@
     <Compile Include="Interfaces\IDraw.cs" />
     <Compile Include="Interfaces\IMovabble.cs" />
     <Compile Include="Characters\MainCharacter.cs" />
-    <Compile Include="Items\Armor.cs" />
+    <Compile Include="Items\Armor.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Items\Armors\ArmorVest.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -99,7 +101,13 @@
     </Compile>
     <Compile Include="Items\Armors\Gloves.cs" />
     <Compile Include="Items\Armors\Helmet.cs" />
+    <Compile Include="Items\Armors\LegsProtectors.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Items\Armors\Pants.cs" />
+    <Compile Include="Items\Armors\Shield.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Items\Armors\ShoulderPads.cs" />
     <Compile Include="Items\Item.cs" />
     <Compile Include="Items\Potion.cs" />
