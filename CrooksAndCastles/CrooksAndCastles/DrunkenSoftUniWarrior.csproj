@@ -88,6 +88,15 @@
     <Compile Include="Interfaces\IMovabble.cs" />
     <Compile Include="Characters\MainCharacter.cs" />
     <Compile Include="Items\Armor.cs" />
+    <Compile Include="Items\Armors\ArmorVest.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Armors\ArmProtectors.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Armors\Boots.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Items\Armors\Gloves.cs" />
     <Compile Include="Items\Armors\Helmet.cs" />
     <Compile Include="Items\Armors\Pants.cs" />

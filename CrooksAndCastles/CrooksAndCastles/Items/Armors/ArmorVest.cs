@@ -2,11 +2,11 @@
 
 namespace DrunkenSoftUniWarrior.Items.Armors
 {
-    internal class Rifle : Armor
+    internal class ArmorVest : Armor
     {
-        private const string Path = "Rifle.jpg";
+        private const string Path = "ArmorVest.jpg";
 
-        public Rifle(Point position, int level)
+        public ArmorVest(Point position, int level)
             : base(position, level)
         {
             this.Picture = new Bitmap(Path);
