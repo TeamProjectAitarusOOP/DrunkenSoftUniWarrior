@@ -96,6 +96,21 @@
     <Compile Include="Items\Potion.cs" />
     <Compile Include="Items\Weapon.cs" />
     <Compile Include="Items\Weapons\Axe.cs" />
+    <Compile Include="Items\Weapons\Bat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\Bow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\Gun.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\KillerAxe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\Knife.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Items\Weapons\Sword.cs" />
     <Compile Include="NPCs\NPC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
