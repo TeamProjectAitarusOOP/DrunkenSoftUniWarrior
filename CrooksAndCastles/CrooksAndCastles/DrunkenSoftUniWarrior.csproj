@@ -111,6 +111,18 @@
     <Compile Include="Items\Weapons\Knife.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Items\Weapons\Mace.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\Machete.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\MagicStick.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Items\Weapons\Rifle.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Items\Weapons\Sword.cs" />
     <Compile Include="NPCs\NPC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
